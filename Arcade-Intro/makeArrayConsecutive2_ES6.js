@@ -1,0 +1,1 @@
+const makeArrayConsecutive2 = statues => Math.max(...statues) - Math.min(...statues) - statues.length + 1;
